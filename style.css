@@ -1,0 +1,470 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #121212;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+}
+
+.hon h2 {
+  font-size: 4rem;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 600;
+  margin: 3rem;
+}
+
+.nes {
+  color: #ff004f;
+}
+
+.unlist {
+  list-style: none;
+  display: flex;
+}
+
+.link a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin: 3rem;
+  color: white;
+}
+
+.link1 a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin: 2rem;
+  color: white;
+  background-color: #ff004f;
+  padding: 0.8rem 2.5rem;
+  border-radius: 1rem;
+}
+
+.link a:hover {
+  color: goldenrod;
+  padding-bottom: 1rem;
+  border-bottom: 4px solid white;
+  transition: ease-in 1s;
+}
+
+.link1 a:hover {
+  border: 1px solid white;
+  background-color: black;
+  transition: ease-in 1s;
+}
+
+.heys {
+  font-size: 1.8rem;
+}
+
+.hey {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.nest {
+  color: #ff004f;
+}
+
+.light {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hire a {
+  background-color: #ff004f;
+  padding: 1.2rem 2.5rem;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.hire {
+  margin-top: 2rem;
+}
+
+.hire a:hover {
+  color: white;
+  background-color: blue;
+  transition: ease-in 1s;
+}
+
+.smooth {
+  display: block;
+}
+
+.mypics img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.under-hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem 0;
+}
+
+.about {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ff004f;
+  margin-top: 8rem;
+}
+
+.bout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin-top: 4rem;
+}
+
+.eng {
+  font-size: 2.5rem;
+}
+
+.web {
+  display: block;
+}
+
+#about-me {
+  margin-bottom: 10rem;
+}
+
+.skill {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #ff004f;
+  text-align: center;
+}
+
+#brand {
+  font-size: 12rem;
+}
+
+.html:hover,
+.css:hover,
+.git:hover,
+.js:hover {
+  background-color: white;
+  color: black;
+  padding: 1rem 4.5rem;
+  transition: ease-in 1s;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+#html,
+#css,
+#git,
+#js {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.html,
+.css,
+.git,
+.js {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.work {
+  text-align: center;
+  color: #ff004f;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.pay img {
+  width: 400px;
+  height: 250px;
+  border-radius: 1.2rem;
+}
+
+.pot,
+.todo,
+.tracker,
+.dan,
+.spar,
+.ever {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.platform {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.product {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #d3cbcaf2;
+}
+
+.lang {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.lang p {
+  background-color: black;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.des {
+  display: block;
+}
+
+.spot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  background-color: rgb(50, 48, 48);
+  border-radius: 1rem;
+}
+
+.spot:hover {
+  transform: translateY(20px);
+  transition: transform 1s linear;
+  cursor: pointer;
+}
+
+.to-do {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  background-color: rgb(50, 48, 48);
+  border-radius: 1rem;
+}
+
+.to-do:hover {
+  transform: translateY(20px);
+  transition: transform 1s linear;
+  cursor: pointer;
+}
+
+.poputracker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  background-color: rgb(50, 48, 48);
+  border-radius: 1rem;
+}
+
+.poputracker:hover,
+.dantown:hover,
+.sparkle:hover,
+.eversend:hover {
+  transform: translateY(20px);
+  transition: transform 1s linear;
+  cursor: pointer;
+}
+
+.dantown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  background-color: rgb(50, 48, 48);
+  border-radius: 1rem;
+}
+
+.sparkle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  background-color: rgb(50, 48, 48);
+  border-radius: 1rem;
+}
+
+.eversend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  background-color: rgb(50, 48, 48);
+  border-radius: 1rem;
+}
+
+.pay {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.pay a {
+  text-decoration: none;
+  color: white;
+}
+
+.touch {
+  font-size: 2rem;
+  margin-left: 3rem;
+  margin-top: 10rem;
+}
+
+#icon {
+  font-size: 2.5rem;
+  margin: 1rem;
+  background-color: white;
+  color: #ff004f;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#icon:hover {
+  font-size: 3rem;
+  padding: 1.5rem;
+  background-color: blue;
+  color: white;
+  transition: transform 1s ease-in;
+  transform: rotate(360deg);
+}
+
+.below {
+  display: flex;
+  margin-left: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 2560px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 1800px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 47.5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .unlist {
+    display: none;
+  }
+
+  .under-hero {
+    padding: 0 2rem;
+    flex-direction: column;
+  }
+
+  .eng,
+  .light {
+    font-size: 2rem;
+    padding: 0 2rem;
+  }
+
+  .hey,
+  .heys,
+  .hire {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 602px) {
+  .web,
+  .smooth {
+    display: inline;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .pay img {
+    width: 300px;
+    height: 150px;
+    border-radius: 1.2rem;
+  }
+
+  #brand {
+    font-size: 6rem;
+  }
+
+  .eng {
+    padding: 0 3rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .pay img {
+    width: 250px;
+    height: 100px;
+    border-radius: 1.2rem;
+  }
+
+  .under-hero {
+    gap: 5rem;
+  }
+
+  #brand {
+    font-size: 6rem;
+  }
+}
