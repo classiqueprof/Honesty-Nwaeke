@@ -160,7 +160,8 @@ nav {
 
 .mypics img {
   width: 280px;
-  border-radius: 50%;
+  height: 280px;
+  border-radius: 50px;
 }
 
 .under-hero {
@@ -476,6 +477,7 @@ nav {
   .under-hero {
     padding: 0 2rem;
     flex-direction: column;
+    gap: 3rem;
   }
 
   .eng,
@@ -523,7 +525,7 @@ nav {
 
   .mypics img {
     width: 250px;
-    height: auto;
+    height: 250px;
   }
 }
 
