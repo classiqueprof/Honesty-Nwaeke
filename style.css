@@ -518,6 +518,10 @@ nav {
   .eng {
     padding: 0 3rem;
   }
+
+  .mypics img {
+    width: 280px;
+  }
 }
 
 @media (max-width: 375px) {
