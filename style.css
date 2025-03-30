@@ -512,6 +512,10 @@ nav {
     font-size: 40.75%;
   }
 
+  .images {
+    padding: 0 2rem;
+  }
+
   .pay img {
     width: 300px;
     height: 150px;
