@@ -3,7 +3,34 @@
   margin: 0;
   box-sizing: 0;
 }
-
+#exitmenubar,
+#menubar,
+#containermenu {
+  display: none;
+}
+#menubar {
+  font-size: 3rem;
+  color: white;
+  float: right;
+  margin-right: 4vw;
+  margin-top: -1vh;
+}
+#navlinkmobile {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+#exitmenubar {
+  font-size: 3.6rem;
+  color: white;
+  float: right;
+  margin-right: 4vw;
+  margin-top: 1vh;
+}
 html {
   font-size: 62.5%;
 }
@@ -13,7 +40,21 @@ body {
   background-color: #121212;
   color: white;
 }
-
+#containermenu {
+  height: 110vh;
+  width: 75%;
+  margin-top: -10.4vh;
+  background-color: black;
+  position: absolute;
+  float: left;
+  margin-left: 24%;
+  animation: none;
+}
+@keyframes container {
+  100% {
+    transform: translateX(200px);
+  }
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -422,6 +463,10 @@ nav {
   .heys,
   .hire {
     padding: 0 2rem;
+  }
+  #menubar,
+  #exitmenubar {
+    display: inherit;
   }
 }
 
