@@ -71,7 +71,7 @@ nav {
 }
 
 .hon h2 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-family: "Amatic SC", sans-serif;
   font-weight: 600;
   margin: 3rem;
@@ -88,14 +88,14 @@ nav {
 
 .link a {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin: 3rem;
   color: white;
 }
 
 .link1 a {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin: 2rem;
   color: white;
   background-color: #ff004f;
@@ -104,7 +104,7 @@ nav {
 }
 
 .link a:hover {
-  color: goldenrod;
+  color: #ff004f;
   padding-bottom: 1rem;
   border-bottom: 4px solid white;
   transition: ease-in 0.5s;
@@ -117,11 +117,12 @@ nav {
 }
 
 .heys {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 .hey {
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   font-weight: 600;
 }
 
@@ -130,7 +131,7 @@ nav {
 }
 
 .light {
-  font-size: 2.5rem;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
@@ -139,7 +140,8 @@ nav {
   padding: 1.2rem 2.5rem;
   border-radius: 1rem;
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -148,8 +150,8 @@ nav {
 }
 
 .hire a:hover {
-  color: white;
-  background-color: blue;
+  color: #ff004f;
+  background-color: white;
   transition: ease-in 0.5s;
 }
 .smooth {
@@ -157,7 +159,7 @@ nav {
 }
 
 .mypics img {
-  width: 300px;
+  width: 280px;
   border-radius: 50%;
 }
 
@@ -169,7 +171,7 @@ nav {
 }
 
 .about {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 600;
   text-align: center;
   color: #ff004f;
@@ -185,7 +187,7 @@ nav {
 }
 
 .eng {
-  font-size: 2.5rem;
+  font-size: 1.7rem;
 }
 
 .web {
@@ -197,7 +199,7 @@ nav {
 }
 
 .skill {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: #ff004f;
   text-align: center;
@@ -250,7 +252,7 @@ nav {
 .work {
   text-align: center;
   color: #ff004f;
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 600;
   margin-top: 10rem;
   margin-bottom: 5rem;
@@ -268,19 +270,19 @@ nav {
 .dan,
 .spar,
 .ever {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   margin: 1rem 0;
 }
 
 .platform {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .product {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 1rem;
   color: #d3cbcaf2;
@@ -413,7 +415,7 @@ nav {
 }
 
 .touch {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-left: 3rem;
   margin-top: 10rem;
 }
@@ -430,8 +432,8 @@ nav {
 #icon:hover {
   font-size: 3rem;
   padding: 1.5rem;
-  background-color: blue;
-  color: white;
+  background-color: white;
+  color: #ff004f;
   transition: transform 0.5s ease-in;
   transform: rotate(360deg);
 }
@@ -444,13 +446,13 @@ nav {
 
 @media (max-width: 2560px) {
   html {
-    font-size: 90%;
+    font-size: 80%;
   }
 }
 
 @media (max-width: 1800px) {
   html {
-    font-size: 70%;
+    font-size: 65%;
   }
 }
 
@@ -462,7 +464,7 @@ nav {
 
 @media (max-width: 992px) {
   html {
-    font-size: 47.5%;
+    font-size: 44.5%;
   }
 }
 
@@ -502,7 +504,7 @@ nav {
 
 @media (max-width: 480px) {
   html {
-    font-size: 43.75%;
+    font-size: 40.75%;
   }
 
   .pay img {
@@ -520,7 +522,7 @@ nav {
   }
 
   .mypics img {
-    width: 280px;
+    width: 250px;
   }
 }
 
