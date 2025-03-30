@@ -465,11 +465,14 @@ nav {
 
 @media (max-width: 992px) {
   html {
-    font-size: 44.5%;
+    font-size: 42.5%;
   }
 }
 
 @media (max-width: 768px) {
+  html {
+    font-size: 41%;
+  }
   .unlist {
     display: none;
   }
